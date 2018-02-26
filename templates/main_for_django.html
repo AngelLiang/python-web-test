@@ -1,0 +1,9 @@
+{% include "layout.html" %}
+
+<body>
+{% block content %}
+    {% for i in range(number or 10000) %}
+        {{ messages }}
+    {% end %}
+{% end %}
+</body>

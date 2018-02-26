@@ -1,0 +1,55 @@
+!.gitignore
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+**/__pycache__/
+
+
+# database
+*.sqlite
+
+# pyvenv
+venv*/
+
+
+# VS
+*.suo
+# 过滤数据库文件、sln解决方案文件、配置文件
+*.mdb
+*.ldb
+#*.sln
+*.config
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
