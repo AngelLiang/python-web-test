@@ -2,30 +2,32 @@
 
 Python Web框架测试集合，包括：
 
-1. `pure_flask.py`：纯粹的 Flask
-2. `pure_django.py`：纯粹的 Django2.0
-3. `pure_tornado.py`：纯粹的 tornado
-4. `gevent_flask.py`：基于 gevent 的 Flask
-5. `gevent_django.py`：基于 gevent 的 Django2.0
-6. `gevent_tornado.py`：基于 gevent 的 tornado
-7. `gunicorn_flask.sh`：基于 gunicorn 的 Flask
-8. `gunicorn_django.sh`：基于 gunicorn 的 Django2.0
-9. `gunicorn_tornado.sh`：基于 gunicorn 的 tornado
-10. `tornado_flask.py`：基于 tornado 的Flask
+- `_1_1_pure_flask.py`：纯粹的 Flask
+- `_1_2_pure_django.py`：纯粹的 Django2.0
+- `_1_3_pure_tornado.py`：纯粹的 tornado
+- `_1_4_pure_apistar.py`：纯粹的 apistar （2018年5月9日新增）
+- `_2_1_gevent_flask.py`：基于 gevent 的 Flask
+- `_2_2_gevent_django.py`：基于 gevent 的 Django2.0
+- `_2_3_gevent_tornado.py`：基于 gevent 的 tornado
+- `_3_1_gunicorn_flask.sh`：基于 gunicorn 的 Flask
+- `_3_2_gunicorn_django.sh`：基于 gunicorn 的 Django2.0
+- `_3_3_gunicorn_tornado.sh`：基于 gunicorn 的 tornado
+- `_ext_tornado_flask.py`：基于 tornado 的Flask
 
-测试的Web框架版本和Python模块包（requirements.txt）：
+测试的Web框架版本和Python模块包（`requirements/requirements.txt`）：
 
 Python版本：3.5.4
 
 - Django==2.0.2
 - Flask==0.12.2
+- apistar==0.5.12
 - gevent==1.2.2
 - gunicorn==19.7.1
 - tornado==4.5.3
 - eventlet==0.22.1
 - aiohttp==3.0.3
 
-requirements_pypy.txt 是给pypy使用。下面默认是使用CPython 3.5.4。
+`requirements/requirements_pypy.txt` 是给pypy使用。下面默认是使用CPython 3.5.4。
 
 # 测试结果参考
 
