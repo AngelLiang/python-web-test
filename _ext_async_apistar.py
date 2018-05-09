@@ -1,9 +1,9 @@
 # coding=utf-8
 
-from apistar import Include, Route, App
+from apistar import Include, Route, ASyncApp
 
 
-def hello():
+async def hello() -> str:
     return "Hello World!"
 
 
@@ -11,7 +11,7 @@ routes = [
     Route('/', 'GET', hello),
 ]
 
-app = App(routes=routes)
+app = ASyncApp(routes=routes)
 
 
 if __name__ == '__main__':

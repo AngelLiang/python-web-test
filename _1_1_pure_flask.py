@@ -20,7 +20,7 @@ def template_handler():
 
 @app.route('/json')
 def json_handler():
-    return jsonify({"status", 1, "message":"OK", "data":{}})
+    return jsonify({"status": 1, "message": "OK", "data": {}})
 
 
 if __name__ == '__main__':

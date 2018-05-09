@@ -13,6 +13,7 @@ Python Web框架测试集合，包括：
 - `_3_2_gunicorn_django.sh`：基于 gunicorn 的 Django2.0
 - `_3_3_gunicorn_tornado.sh`：基于 gunicorn 的 tornado
 - `_ext_tornado_flask.py`：基于 tornado 的Flask
+- `_ext_async_apistar`：apistar 以 async 模式部署 （2018年5月9日新增）
 
 测试的Web框架版本和Python模块包（`requirements/requirements.txt`）：
 
@@ -37,13 +38,16 @@ Python版本：3.5.4
 
 测试结论，在其他因素不变的情况下，只返回`Hello World`字符串，使用ab对各种Python Web框架进行压力测试，其性能从大到小为：
 
+- gunicorn_apistar（2322.15，2018-05-09新增）
 - gunicorn_django（1909.12）
+- pure_apistar（1737.37，2018-05-09新增）
 - gunicorn_flask（1732.09）
 - gevent_django（1710.94）
 - gevent_flask（1572.45）
 - gunicorn_tornado（1544.18）
 - gunicorn_gevent_flask（1499.17）
 - pure_flask（1474.66）
+- async_apistar（1454.07，2018-05-09新增）
 - gevent_tornado（1431.28）
 - gunicorn_eventlet_flask（1383.50）
 - pure_tornado（1328.77）
