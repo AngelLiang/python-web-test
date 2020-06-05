@@ -1,6 +1,6 @@
 cffi==1.5.2
 click==6.7
-Django==1.11.10
+Django==1.11.29
 Flask==0.12.2
 greenlet==0.4.9
 gunicorn==19.7.1
